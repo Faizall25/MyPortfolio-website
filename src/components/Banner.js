@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Fotografer', 'Desainer Grafis', 'Web Developer'];
+  const toRotate = ['Software Engineer', 'Web & Mobile Developer', 'Full Stack Enginner'];
   const period = 2000;
 
   useEffect(() => {
@@ -59,14 +59,14 @@ export const Banner = () => {
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Vanya`}{' '}
-                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Fotografer", "Desainer Grafis", "Web Developer" ]'>
+                    {`Hi! I'm Faizal`}{' '}
+                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Web & Mobile Developer", "Full Stack Enginner" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    I am an active student of the Informatics Engineering study program at UIN Malang, class of 2024. I have experience as a leader in several organizations. I am interested in becoming a software engineer, especially in the
-                    field of website developer, and creative media in Production House or TV rental, and I have a hobby of being a photographer.
+                    I am an Active student at the State Islamic University of Maulana Malik Ibrahim Malang, majoring in Informatics Engineering, with a target of graduating in 2026. Having an interest in developing web and mobile-based
+                    systems, and actively following the latest technological developments.
                   </p>
                   <button onClick={() => console.log('connect')}>
                     Let’s Connect <ArrowRightCircle size={25} />

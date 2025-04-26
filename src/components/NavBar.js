@@ -34,7 +34,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Vanya Nyssa" />
+            <img src={logo} alt="Faizal Ferdianto" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@ export const NavBar = () => {
                 <a href="#">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/642.007?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <a href="https://www.instagram.com/faizaall.f/?utm_source=ig_web_button_share_sheet">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
